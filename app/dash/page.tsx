@@ -108,7 +108,6 @@ export default function Dashboard() {
   const [employeeToDelete, setEmployeeToDelete] = useState<number | null>(null)
   const [showTips, setShowTips] = useState(true)
   const [showWarning, setShowWarning] = useState(true)
-  const searchParams = useSearchParams()
 
   useEffect(() => {
     const lastShown = localStorage.getItem("lastAlertShown")
