@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
-import { useSearchParams } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import {
@@ -181,7 +180,7 @@ export default function Dashboard() {
             >
               <Alert className="bg-green-100 border-green-200">
                 <AlertDescription>
-                  您已经登录: {searchParams.get("cvid")}+{searchParams.get("dfid")}
+                  您已经登录: hy3n13s9u120s-cvid
                 </AlertDescription>
               </Alert>
             </motion.div>
